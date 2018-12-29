@@ -1,0 +1,3 @@
+程序功能：用于批量生成数仓 STA,SDA 数据贴源层，数据拉链层 Spoon ETL程序
+程序描述：通过读取（allData,increment）全量及增量目录下程序模板及需要抽取的系统（*.xlsx）配置文件
+    来生成相应的Spoon ETL执行程序。直接执行 sta_sda_generator.py 程序。根据提示输入
